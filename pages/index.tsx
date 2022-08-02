@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a> <br />
           <Button variant="contained" component="label">
             Olha a foto
-            <input type="file" accept="image/*" />
+            <input hidden accept="image/*" multiple type="file" />
           </Button>
         </h1>
       </main>
